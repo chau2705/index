@@ -1,0 +1,577 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/WOW-master/css/libs/animate.css">
+	<link rel="stylesheet" href="css/12column.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+
+<body>
+	<div class="header1"></div>
+		<div class="row noidung1">
+			<div class="col-2"></div>
+			<div class="col-2">
+				<img src="img/logo.png">
+			</div>
+			<div class="col-6 text1">
+				<strong><ul>
+					<li>HOME</li>
+					<li>ABOUT</li>
+					<li>SERVICES</li>
+					<li>PROJECT</li>
+					<li>TEAM</li>
+					<li>NEWS</li>
+					<li>CONTACT US</li>
+				</ul></strong>
+			</div>
+			
+		</div>
+	
+	
+	
+	<div class="slider">
+	<div class="container-fluid">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/engin-akyurt-PcU17evKnew-unsplash.jpg" style="width:100%">
+<!--  <div class="text">Caption Text</div>-->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/Toxic _Forever Chemicals_ Are Likely Polluting Your Water Supply.jpg" style="width:100%">
+<!--  <div class="text">Caption Two</div>-->
+</div>
+
+
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	
+	
+	
+	
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-8 hang1">
+			<div class="text1"><a1>Water Purified by Nature and Delivered with Love Call Us!</a1></div>
+			<div class="buton"><a2>Contact Us Today</a2></div>
+			
+
+	      
+		</div>
+	</div>
+	
+	
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-8 hang2">
+			<strong><a3>Get Pure and Heahy Drinking Water</a3>
+			</strong>
+		</div>
+	</div>
+	
+	
+	
+	<div class="row hang3">
+		<div class="col-6 img4"><img src="img/ly.jpg"></div>
+		<div class="col-6 text2">
+			<strong><b1>Water Purified by Nature and Delivered with Love.</b1></strong><br><br><br>
+			<b2>rket segments. The company has earned recognition for undertaking large, complex projects, fostering innovation, embracing emerging technologies, and making a difference for their clients.Another name for water is life. we marwant to help you to improve your water quality.So that you and your family can drink pure, healthy and safe water. We are trying our best to give you these services.</b2>
+			<br><br><br>
+			<div class="text3"><strong><b3>Know more</b3></strong></div>
+		</div>
+	</div>
+	<div class="khoangtrong"></div>
+	<div class="row hang4">
+		<div class="col-2"></div>
+		<div class="col-8">
+		<strong><a3>We Provide All Kinds of Residential <br>Commercial Water Solutions</a3></strong><br><br>
+			<hr>
+		</div>
+	</div>
+	<div class="row hang5">
+		<div class="col-4">
+			<div class="noidung3">
+				<img src="img/service-1.jpg">
+			</div>
+			<div class="text4-1">
+				<strong><a4>Residential Water</a4><hr></strong>
+			</div>
+			<div class="text4-2">
+				<a4>Another name for water is life. we want to help you to improve your water quality.So that you and your family can drink pure, healthy and safe water. We are trying our best to give you these services</a4>
+			</div>
+		</div>
+		
+		
+		<div class="col-4">
+			<div class="noidung4">
+				<img src="img/service-2.jpg">
+			</div>
+			<div class="text5-1">
+				<strong><a4>Commercial Water</a4><hr></strong>
+			</div>
+			<div class="text5-2">
+				<a4>Another name for water is life. we want to help you to improve your water quality.So that you and your family can drink pure, healthy and safe water. We are trying our best to give you these services</a4>
+			</div>
+		</div>
+		
+		
+		<div class="col-4">
+			<div class="noidung5">
+				<img src="img/service-3.jpg">
+			</div>
+			<div class="text6-1">
+				<strong><a4>Filtration Plan</a4><hr></strong>
+			</div>
+			<div class="text6-2">
+				<a4>Another name for water is life. we want to help you to improve your water quality.So that you and your family can drink pure, healthy and safe water. We are trying our best to give you these services</a4>
+			</div>
+		</div>
+		
+		
+		<div class="khoangtrong"></div>
+		
+		<div class="col-4">
+			<div class="noidung6">
+				<img src="img/service-4.jpg">
+			</div>
+			<div class="text7-1">
+				<strong><a4>Free Water Delivery</a4><hr></strong>
+			</div>
+			<div class="text7-2">
+				<a4>Another name for water is life. we want to help you to improve your water quality.So that you and your family can drink pure, healthy and safe water. We are trying our best to give you these services</a4>
+			</div>
+		</div>
+		
+		
+		<div class="col-4">
+			<div class="noidung7">
+				<img src="img/service-5.jpg">
+			</div>
+			<div class="text8-1">
+				<strong><a4>Water Softening</a4><hr></strong>
+			</div>
+			<div class="text8-2">
+				<a4>Another name for water is life. we want to help you to improve your water quality.So that you and your family can drink pure, healthy and safe water. We are trying our best to give you these services</a4>
+			</div>
+		</div>
+		
+		
+		<div class="col-4">
+			<div class="noidung8">
+				<img src="img/service-6.jpg">
+			</div>
+			<div class="text9-1">
+				<strong><a4>Cooler And Dispensers</a4><hr></strong>
+			</div>
+			<div class="text9-2">
+				<a4>Another name for water is life. we want to help you to improve your water quality.So that you and your family can drink pure, healthy and safe water. We are trying our best to give you these services</a4>
+			</div>
+		</div>
+	</div>
+	<div class="khoangtrong"></div>
+	<div class="row hang5">
+		<div class="col-2"></div>
+		<div class="col-8"><hr></div>
+	</div>
+	
+	
+	<div class="khoangtrong"></div>
+	
+	
+	<div class="container-fluid x1">
+		<div class="row hang6">
+			<div class="col-4">
+				<div class="tttext">
+					<div class="text11"><a3>7K</a3></div>
+					<div class="text10-1">
+					<a3>BOTTLES DELIVERED</a3>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="tttext">
+					<div class="text11"><a3>1580</a3></div>
+					<div class="text10-1">
+					<a3>OUTLETS IN COUNTRY</a3>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="tttext">
+					<div class="text11"><a3>12K</a3></div>
+					<div class="text10-1">
+					<a3>SATISFIED CUSTOMERS</a3>
+					</div>
+					
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>
+	<div class="khoangtrong"></div>
+	
+	<div class="row hang7">
+		<div class="col-12">
+			<div class="text12">
+				<strong><a3>Recent Projects</a3></strong>
+			</div>
+			<div class="khoangtrong"></div>
+			<div class="daugach"><hr></div>
+			
+		</div>
+	</div>
+	<div class="khoangtrong"></div>
+	
+	<div class="container x2">
+		<div class="row hang8">
+			<div class="col-3">
+				<div class="noidung10">
+					<img src="img/p-1.jpg">
+				</div>
+				<div class="text14">
+					<div class="text14-1">
+						<a3>Mineral Water</a3>
+					</div>
+					
+					<div class="text14-2">
+						<a3>Aqua Water</a3>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-3">
+				<div class="noidung10">
+					<img src="img/p-2.jpg">
+				</div>
+				<div class="text14">
+					<div class="text14-1">
+						<a3>Mineral Water</a3>
+					</div>
+					
+					<div class="text14-2">
+						<a3>Aqua Water</a3>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-3">
+				<div class="noidung10">
+					<img src="img/p-3.jpg">
+				</div>
+				<div class="text14">
+					<div class="text14-1">
+						<a3>Mineral Water</a3>
+					</div>
+					
+					<div class="text14-2">
+						<a3>Aqua Water</a3>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-3">
+				<div class="noidung10">
+					<img src="img/p-4.jpg">
+				</div>
+				<div class="text14">
+					<div class="text14-1">
+						<a3>Mineral Water</a3>
+					</div>
+					
+					<div class="text14-2">
+						<a3>Aqua Water</a3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="khoangtrong"></div>
+	<div class="khoangtrong"></div>
+	
+	<div class="row hang7">
+		<div class="col-12">
+			<div class="text12">
+				<strong><a3>Meet Our Team</a3></strong>
+			</div>
+			<div class="khoangtrong"></div>
+			<div class="daugach"><hr></div>
+			
+		</div>
+	</div>
+	
+	<div class="khoangtrong"></div>
+	<div class="container x3">
+		<div class="row hang8">
+			<div class="col-3">
+				<div class="tb">
+				<div class="noidung11">
+					<img src="img/team-1 (1).jpg">
+				</div>
+			
+				<div class="text15">
+					<div class="text15-1">
+						<a3>Eliot Hananiah</a3>
+					</div>
+					
+					<div class="text15-2">
+						<a3>President</a3>
+					</div>
+					
+					<div class="text15-3"><i><a3>Undertakes laborious phycially<br> allexcept to obtain</a3></i></div>
+				</div>
+					</div>
+			</div>
+			
+			
+			<div class="col-3">
+				<div class="tb">
+				<div class="noidung11">
+					<img src="img/team-1 (1).jpg">
+				</div>
+			
+				<div class="text15">
+					<div class="text15-1">
+						<a3>Eliot Hananiah</a3>
+					</div>
+					
+					<div class="text15-2">
+						<a3>President</a3>
+					</div>
+					
+					<div class="text15-3"><i><a3>Undertakes laborious phycially<br> allexcept to obtain</a3></i></div>
+				</div>
+					</div>
+			</div>
+			
+			
+			<div class="col-3">
+				<div class="tb">
+				<div class="noidung11">
+					<img src="img/team-2.jpg">
+				</div>
+			
+				<div class="text15">
+					<div class="text15-1">
+						<a3>Chaz Cuthbert</a3>
+					</div>
+					
+					<div class="text15-2">
+						<a3>Manager</a3>
+					</div>
+					
+					<div class="text15-3"><i><a3>Great explorer of the truth <br> seds builder human happiness</a3></i></div>
+				</div>
+					</div>
+			</div>
+			
+			<div class="col-3">
+				<div class="tb">
+				<div class="noidung11">
+					<img src="img/team-3.jpg">
+				</div>
+			
+				<div class="text15">
+					<div class="text15-1">
+						<a3>Matthew Neil</a3>
+					</div>
+					
+					<div class="text15-2">
+						<a3>Engineer</a3>
+					</div>
+					
+					<div class="text15-3"><i><a3>Cicumstances occurs in<br> which toilall pain great pleasure</a3></i></div>
+				</div>
+					</div>
+			</div>
+			
+			
+		</div>
+	</div>
+	<div class="khoangtrong"></div>
+<div class="container-fluid x4">
+		<div class="container x5">
+			<a3>We now deliver different types of bottled water. To Drink the best water please come to us and give us order and take afe and sound water for you</a3>
+	</div>
+	</div>
+	<div class="khoangtrong"></div>
+	<div class="khoangtrong"></div>
+	<div class="container x6">
+		<div class="row hang9">
+			<div class="col-3">
+				<div class="noidung12">
+					<img src="img/7 (1).png">
+				</div>
+			</div>
+			
+			<div class="col-3">
+				<div class="noidung12">
+					<img src="img/7.png">
+				</div>
+			</div>
+			
+			<div class="col-3">
+				<div class="noidung12">
+					<img src="img/logo.png">
+				</div>
+			</div>
+			
+			<div class="col-3">
+				<div class="noidung12">
+					<img src="img/8.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="khoangtrong"></div>
+	
+<div class="container-fluid xx1">
+		<div class="containerxx1-1">
+			<div class="row ho1">
+				<div class="col-3">
+					<div class="nd1">
+						<img src="img/logo.png">
+					</div>
+					<div class="t1">
+						<div class="t1-1">
+							<a3>Another name for water is life. we want to help you to improve your water quality.So that you and your family can drink pure, healthy and safe water. We are trying our best to give you these services</a3>
+						</div>
+						<div class="t1-2">
+							<a3>121 Park Drive, Varick Str, NY, 10002</a3>
+						</div>
+						<div class="t1-3">
+							<a3>Phone: +32 456 789012<br>Email:info@example.com</a3>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-3"> 
+				  <div class="nc1">
+					<div class="nd2">
+						<strong><a3>Usefull links</a3></strong>
+					</div>
+					<div class="nd2-1"><hr></div>
+					<div class="t2">
+						<div class="t2-1">
+							<ul>
+								<li>About Us</li>
+								<li>Our Services</li>
+								<li>Request Quote</li>
+								<li>Client Reviews</li>
+								
+								<li>Private Policy</li>
+								
+							</ul>
+						</div>
+					</div>
+					</div>
+				
+				</div>
+				
+				
+				<div class="col-3">
+					<div class="nc2">
+						<div class="nd3">
+							<div class="nd3-1">
+								<strong><a3>Latest News</a3></strong>
+							</div>
+							
+							<div class="nd3-2"><hr></div>
+							
+						</div>
+						
+						
+						<div class="t3">
+							<div class="t3-1"><a>14 August, 2017<br>Planning large family gathering</a><hr></div>
+							<div class="t3-2"><a>24 April, 2017<br>Tankless water heating: Gas</a><hr></div>
+							<div class="t3-3"><a>05 February, 2017<br>Best residential Water award</a></div>
+						</div>
+						
+					</div>
+				</div>
+				
+				
+				<div class="col-3">
+					<div class="nc3">
+						<div class="nd4">
+							<div class="nd4-1">
+								<strong><a3>Working Hours</a3></strong>
+							</div>
+							
+							<div class="nd4-2"><hr></div>
+							
+					</div>
+					<div class="t4">
+						<a3>Mon to Friday       :      09 am - 06 pm<br>Satday                   :       10 am - 04 pm<br>Sunday                  :                    Closed</a3>
+					</div>
+					</div>
+					
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid xx2"></div>
+	
+	
+	
+	
+	
+	
+	
+
+</body>
+</html>

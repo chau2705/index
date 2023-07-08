@@ -1,0 +1,605 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.header1{
+	width: 100%;
+	height: 25px;
+	background:  #3060a8;
+}
+.noidung1{
+	height: 100px;
+	background:  #E8F7FD;
+}
+.text1 ul li {
+	list-style: none;
+	float:left;
+	margin-left: 17px;
+	font-family: 'Montserrat', sans-serif;
+	color:#353131;
+	transform: scale(1);
+	transition: all 0.2s linear;
+	font-size: 15px;
+}
+.text1 ul li:hover{
+	color: aqua;
+	transform: scale(1.1);
+}
+
+.text1{
+	margin-top: 26px;
+}
+.buton{
+	background:#64B1CF;
+	height: 40px;
+	width: 150px;
+	margin-left: 75%;
+	margin-top: -30px;
+	border:1px solid #F7F2F2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: scale(1);
+	transition: all 0.3s linear;
+}
+.buton:hover{
+	background: #3E75EA;
+	transform: scale(1.1)
+}
+.noidung2{
+	height: 100px;
+	background:#2B74E4;
+	margin-top: -100px;
+}
+.text1 a1{
+	margin-top: 20px;
+}
+.hang1{
+	background:#3060a8;
+	height: 100px;
+	margin-top: -85px;
+}
+.text1 {
+	margin-top: 30px;
+	color: aliceblue;
+}
+.buton a2{
+	color: aliceblue;
+}
+.hang2{
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	margin-top:25px;
+}
+.img4 img{
+	margin-left: 15%;
+	width: 80%;
+	
+}
+.text2 b1{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+.text2 b2{
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+.text2{
+	margin-top: 50px;
+}
+.text2 b3{
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color: aliceblue;
+}
+.text3{
+	background: #64B1CF;
+	height: 50px;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:1px solid #14356F;
+	transform: scale(1);
+	transition: all 0.3s linear;
+}
+.text3:hover{
+	background: #3E75EA;
+	transform: scale(1.1)
+}
+.khoangtrong{
+	width: 100%;
+	height: 50px;
+}
+.hang4 a3{
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+.hang4 hr{
+	width: 20%;
+	margin-left: 40%;
+}
+.hang4 a3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.text4-1{
+	margin-top: 20px;
+}
+.text4-1 hr{
+	width: 20%;
+	height: 2px;
+	margin-top: 10px; 
+	background: #64B1CF;
+}
+.text4-2{
+	margin-top: 20px;
+}
+.noidung3{
+	
+	transform: scale(1);
+	transition: all 0.3s linear;
+	opacity: 1;
+	
+	
+}
+.noidung3:hover{
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+.text5-1{
+	margin-top: 20px;
+}
+.text5-1 hr{
+	width: 20%;
+	height: 2px;
+	margin-top: 10px; 
+	background: #64B1CF;
+}
+.text5-2{
+	margin-top: 20px;
+}
+.noidung4{
+	
+	transform: scale(1);
+	transition: all 0.3s linear;
+	opacity: 1;
+	
+	
+}
+.noidung4:hover{
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+
+
+
+.text6-1{
+	margin-top: 20px;
+}
+.text6-1 hr{
+	width: 20%;
+	height: 2px;
+	margin-top: 10px; 
+	background: #64B1CF;
+}
+.text6-2{
+	margin-top: 20px;
+}
+.noidung5{
+	
+	transform: scale(1);
+	transition: all 0.3s linear;
+	opacity: 1;
+	
+	
+}
+.noidung5:hover{
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+
+.text7-1{
+	margin-top: 20px;
+}
+.text7-1 hr{
+	width: 20%;
+	height: 2px;
+	margin-top: 10px; 
+	background: #64B1CF;
+}
+.text7-2{
+	margin-top: 20px;
+}
+.noidung6{
+	
+	transform: scale(1);
+	transition: all 0.3s linear;
+	opacity: 1;
+	
+	
+}
+.noidung6:hover{
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+
+.text8-1{
+	margin-top: 20px;
+}
+.text8-1 hr{
+	width: 20%;
+	height: 2px;
+	margin-top: 10px; 
+	background: #64B1CF;
+}
+.text8-2{
+	margin-top: 20px;
+}
+.noidung7{
+	
+	transform: scale(1);
+	transition: all 0.3s linear;
+	opacity: 1;
+	
+	
+}
+.noidung7:hover{
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+
+.text9-1{
+	margin-top: 20px;
+}
+.text9-1 hr{
+	width: 20%;
+	height: 2px;
+	margin-top: 10px; 
+	background: #64B1CF;
+}
+.text9-2{
+	margin-top: 20px;
+}
+.noidung8{
+	
+	transform: scale(1);
+	transition: all 0.3s linear;
+	opacity: 1;
+	
+	
+}
+.noidung8:hover{
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+
+.noidung9 img{
+	height: 130px;
+}
+.noidung9{
+	float: left;
+}
+
+.x1{
+	height: 150px;
+	background: #3060a8;
+}
+
+
+
+.text10-1{
+	margin-top: 10px;
+	color:aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text11{
+	color: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.tttext{
+	margin-top: 40px;
+}
+.text12{
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.daugach{
+	width: 10%;
+	height: 2px;
+	margin-left: 45%;
+}
+.noidung10 img{
+	width: 100%;
+	background: red;
+	transition: all 2s linear;
+	opacity: 1;
+}
+.noidung10:hover{
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+
+.text14-2{
+	color: #2D5E9C;
+	margin-top: 5px;
+}
+.text14{
+	margin-top: 10px;
+}
+.noidung11 img{
+	width: 100%;
+}
+
+.text15{
+	margin-top: 15px;
+	text-align: center;
+}
+.text15-2{
+	color:#1C4199;
+	margin-top: 10px;
+}
+.text15-3{
+	margin-top: 10px
+}
+.tb{
+	border:1px solid #B9B6B6;
+	
+}
+.noidung11{
+	
+	
+	transition: all 0.3s linear;
+	opacity: 1;
+	
+	
+}
+.noidung11:hover{
+	
+	opacity: 0.5;
+	
+}
+.x4{
+	height: 200px;
+	background: #3060a8;
+}
+.x5{
+	font-size: 25px;
+	text-align: center;
+	color: aliceblue;
+	padding-top: 70px;
+}
+
+.x7{
+	height: 600px;
+	background: #1C4199;
+}
+
+
+.xx1{
+	height: 350px;
+	background: #082137;
+}
+.t1{
+	color: aliceblue; 
+	margin-top:20px;
+}
+.t1-2{
+	margin-top: 10px;
+}
+.t1-3{
+	margin-top: 10px;
+}
+.nc1{
+	margin-top: 30px;
+	color: aliceblue;
+}
+.t2-1 ul li{
+	list-style: none;
+	transform: scale(1);
+	transition: all 0.2s linear;
+	font-size: 15px;
+	margin-top:15px;
+
+}
+.t2-1 ul li:hover{
+	color: aqua;
+	transform: scale(1.1);
+}
+.nd2-1 hr{
+	width: 20%;
+	height: 0.5px;
+	margin-top: 25px;
+
+	
+}
+.nd2{
+	font-size: 25px;
+}
+.nc2{
+	margin-top: 30px;
+	color: aliceblue;
+}
+.nd3-1{
+	font-size: 25px;
+}
+.nd3-2 hr{
+	width: 20%;
+	height: 0.5px;
+	margin-top: 25px;
+}
+.t3-1{
+	margin-top: 10px;
+}
+.t3-1 hr{
+	width: 20%;
+	height: 0.5px;
+	margin-top: 10px;
+}
+.t3-2{
+	margin-top: 10px;
+	
+}
+.t3-2 hr{
+	width: 20%;
+	height: 0.5px;
+	margin-top: 10px;
+}
+.t3-3{
+	margin-top: 10px;
+}
+.nc3{
+	margin-top: 30px;
+	color: aliceblue;
+}
+.nd4-1{
+	font-size: 25px;
+}
+.nd4-2 hr{
+	width: 20%;
+	height: 0.5px;
+	margin-top: 25px;
+}
+.t4{
+	margin-top: 10px;
+}
+.xx2{
+	height: 25px;
+	background: #3060a8;
+	
+}
+
+ 
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*
+.
